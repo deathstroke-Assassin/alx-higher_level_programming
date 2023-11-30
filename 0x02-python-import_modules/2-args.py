@@ -9,7 +9,7 @@ else:
     print("{} arguments:".format(x))
 if x >= 1:
     x = 0
-    for arg in range(sys.argv):
+    for arg in sys.argv:
         if x != 0:
             print("{}: {}".format(x, arg))
         x += 1
