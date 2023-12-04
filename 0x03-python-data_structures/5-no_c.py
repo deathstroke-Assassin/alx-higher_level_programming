@@ -1,4 +1,5 @@
-def no_c(my_string):
+#!/usr/bin/python
+3def no_c(my_string):
     new_str = ""
     for i in my_string:
         if i is not 'c' and i is not 'C':
