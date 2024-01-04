@@ -1,12 +1,10 @@
 #!/usr/bin/python3
-
-"Rectangle"
-
-
-class Rectangle
+"""
+Rectangle
+"""
 
 
-"pass it"
 
-
-pass
+class Rectangle:
+"""pass it"""
+    pass
