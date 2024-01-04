@@ -4,7 +4,6 @@ Rectangle
 """
 
 
-
 class Rectangle:
-"""pass it"""
+    """pass it"""
     pass
