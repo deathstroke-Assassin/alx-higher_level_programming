@@ -1,3 +1,3 @@
-#!usr/bin/python3
-def copy_list(lios):
-    return lios[:]
+#!/usr/bin/python3
+def copy_list(l):
+    return l[:]
