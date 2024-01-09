@@ -7,7 +7,7 @@
 import json
 
 
-    def save_to_json_file(my_obj, filename):
+def save_to_json_file(my_obj, filename):
     """
         read_file reads teaxt file and prints to stdout
     """
