@@ -24,4 +24,4 @@ class Student:
         """
             read_file reads teaxt file and prints to stdout
         """
-    return obj.__dict__
+        return self.__dict__
