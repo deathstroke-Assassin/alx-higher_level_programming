@@ -20,7 +20,7 @@ class Student:
         self.last_name = last_name
         self.age = age
 
-    def to_json(self):
+    def to_json(self, attr=None):
         """
             read_file reads teaxt file and prints to stdout
         """
