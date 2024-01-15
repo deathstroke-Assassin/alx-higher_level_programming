@@ -22,7 +22,7 @@ class Rectangle(Base):
         return self.__width
 
     @width.setter
-    def width(self. value):
+    def width(self, value):
         """set width"""
         if type(value) is not int:
             raise TypeError("width must be an integer")
@@ -36,7 +36,7 @@ class Rectangle(Base):
         return self.__height
 
     @height.setter
-    def height(self. value):
+    def height(self, value):
         """set width"""
         if type(value) is not int:
             raise TypeError("height must be an integer")
@@ -50,7 +50,7 @@ class Rectangle(Base):
         return self.__x
 
     @x.setter
-    def x(self. value):
+    def x(self, value):
         """set width"""
         if type(value) is not int:
             raise TypeError("x must be an integer")
@@ -58,13 +58,13 @@ class Rectangle(Base):
             raise ValueError("x must be > 0")
         self.__x = value
 
-    @proprty
+    @property
     def y(self):
         """get width"""
         return self.__y
 
     @y.setter
-    def y(self. value):
+    def y(self, value):
         """set width"""
         if type(value) is not int:
             raise TypeError("y must be an integer")
@@ -103,12 +103,12 @@ class Rectangle(Base):
             for key, value in kwargs.items():
                 setattr(self, key, value)
 
-    def to_dictionary(self)
-    """dict"""
-    list_r = ['id', 'width', 'height', 'x', 'y']
-    dict_res = {}
+    def to_dictionary(self):
+        """dict"""
+        list_r = ['id', 'width', 'height', 'x', 'y']
+        dict_res = {}
 
-    for key in list_r:
-        dict_res[key] = getattr(self, key)
+        for key in list_r:
+            dict_res[key] = getattr(self, key)
 
-    return dict_res
+        return dict_res
