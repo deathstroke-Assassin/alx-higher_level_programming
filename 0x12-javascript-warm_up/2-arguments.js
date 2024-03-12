@@ -5,7 +5,7 @@ const index = process.argv.length;
 if (index === 2) {
   console.log('No argument');
 } else if (index === 3) {
-  console.log('argument found');
+  console.log('Argument found');
 } else {
-  console.log('arguments found');
+  console.log('Arguments found');
 }
